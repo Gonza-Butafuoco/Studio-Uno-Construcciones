@@ -1,11 +1,3 @@
-Hola que tal! Si estas leyendo esto significa que te comparti mi repositorio personal donde trabajo en mis habilidades como full stack developer. El objetivo de este repositorio es principalmente funcionar como un espacio de practica donde se pueden generar ideas y materializarlas en codigo concreto. <br><br/>
-En este espacio creo todo tipo de componentes e incluso creo plantillas para despues utilizarlas en mis proyectos tanto publicos como privados. Que quiere decir esto? Que este espacio no tiene un orden o una logica espefica ya que puedo estar practicando con multiples funcionalidades al mismo tiempo que no esten relacionados entre si <br><br/>
-Utilizo varios lenguajes pero lo mas importantes que tendrias que considerar es React.js(esto incluye toda la parte front end como HTML5 CSS y JavaScript) , PHP(esto incluye toda la parte Back end como MySql REST api JSON) y Python( Principalmente para practicar codeo de aplicaciones y utilidades de distintos tipos)<br><br/>
-Seguramente no tengas permisos para modificar o subir archivos directamente asi que si tenes una idea o queres aplicar un cambio te recomendaria que te contactes conmigo de la manera en la que te llego el permiso de este repositorio ya que solo voy a aprobar cambios que esten previamente notificados<br><br/>
-Eso seria todo lo que tenes que saber de mi parte. Disfruta el espacio e inicia a experimentar! "El cerebro no es un vaso por llenar, sino una lámpara por encender"
-
-Instrucciones NPM(consola)
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
