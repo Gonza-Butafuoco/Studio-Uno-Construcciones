@@ -1,17 +1,12 @@
 import React from 'react'
-import Navbar from '../organisms/Navbar'
 
-function Home() {
+export const Home = () => {
   return (
     <div>
-        <header className=" sticky top-0">
-          <Navbar/>
-        </header>
-      <body className=' bg-cyan-500 h-screen'>
-      </body>
-        
-    </div>
+    <body className=' bg-cyan-500 h-screen'>
+      <h1>Home Page</h1>
+    </body>
+      
+  </div>
   )
 }
-
-export default Home
