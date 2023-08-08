@@ -14,11 +14,11 @@ import CasillasDetailPage from "./components/pages/CasillasDetailPage";
 
 export const App = () => {
   return (
-    <div classname="sticky top-0">
+    <div>
       <Router>
+          <Navbar />
         <div>
 
-          <Navbar />
 
 
 
