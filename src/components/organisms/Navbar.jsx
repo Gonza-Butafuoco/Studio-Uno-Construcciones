@@ -1,13 +1,19 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import ButtonSection from '../molecules/ButtonSection';
 import svgimage from "../Resources/studiouno_logotipo.svg";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenuAndNavigate = (path) => {
+    setIsMenuOpen(false);
+    navigate(path);
   };
 
   return (
@@ -22,36 +28,36 @@ function Navbar() {
           <div className={`absolute top-16 right-4 bg-white border border-gray-300 shadow-lg opacity-0 transform translate-y-2 ${isMenuOpen ? 'opacity-100 translate-y-0 transition-all duration-300' : 'transition-all duration-300'}`}>
             <ul className='space-y-2 text-sm'>
               <li>
-                <Link
-                  to='/'
+                <button
+                  onClick={() => closeMenuAndNavigate('/')}
                   className='block py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text hover:bg-gray-100 transition-colors duration-300'
                 >
                   Home
-                </Link>
+                </button>
               </li>
               <li>
-                <Link
-                  to='/AboutUs'
+                <button
+                  onClick={() => closeMenuAndNavigate('/AboutUs')}
                   className='block py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text hover:bg-gray-100 transition-colors duration-300'
                 >
-                  About Us
-                </Link>
+                  Sobre nosotros
+                </button>
               </li>
               <li>
-                <Link
-                  to='/ModelsPage'
+                <button
+                  onClick={() => closeMenuAndNavigate('/ModelsPage')}
                   className='block py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text hover:bg-gray-100 transition-colors duration-300'
                 >
-                  Models
-                </Link>
+                  Modelos
+                </button>
               </li>
               <li>
-                <Link
-                  to='/Contact'
+                <button
+                  onClick={() => closeMenuAndNavigate('/Contact')}
                   className='block py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text hover:bg-gray-100 transition-colors duration-300'
                 >
-                  Contact
-                </Link>
+                  Contacto
+                </button>
               </li>
             </ul>
           </div>
@@ -81,15 +87,3 @@ function Navbar() {
 }
 
 export default Navbar;
-
-
-
-
-
-
-
-
-
-
-
-
