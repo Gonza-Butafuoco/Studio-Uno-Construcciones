@@ -25,36 +25,36 @@ function Navbar() {
           </Link>
         </div>
         <div className='md:hidden relative'>
-          <div className={`absolute top-16 right-4 bg-white border border-gray-300 shadow-lg opacity-0 transform translate-y-2 ${isMenuOpen ? 'opacity-100 translate-y-0 transition-all duration-300' : 'transition-all duration-300'}`}>
+          <div className={`fixed top-[88px] right-0 bg-white shadow-lg opacity-0 transform translate-y-2 ${isMenuOpen ? 'opacity-100 translate-y-0 transition-all duration-300' : 'transition-all duration-300'}`}>
             <ul className='space-y-2 text-sm'>
-              <li>
+              <li className='flex justify-center items-center hover:bg-gray-300'>
                 <button
                   onClick={() => closeMenuAndNavigate('/')}
-                  className='block py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text hover:bg-gray-100 transition-colors duration-300'
+                  className='block w-full h-full py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text transition-colors duration-300'
                 >
                   Home
                 </button>
               </li>
-              <li>
+              <li className='flex justify-center items-center  hover:bg-gray-300'>
                 <button
                   onClick={() => closeMenuAndNavigate('/AboutUs')}
-                  className='block py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text hover:bg-gray-100 transition-colors duration-300'
+                  className='block w-full h-full py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text transition-colors duration-300'
                 >
                   Sobre nosotros
                 </button>
               </li>
-              <li>
+              <li className='flex justify-center items-center  hover:bg-gray-300'>
                 <button
                   onClick={() => closeMenuAndNavigate('/ModelsPage')}
-                  className='block py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text hover:bg-gray-100 transition-colors duration-300'
+                  className='block w-full h-full py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text transition-colors duration-300'
                 >
                   Modelos
                 </button>
               </li>
-              <li>
+              <li className='flex justify-center items-center  hover:bg-gray-300'>
                 <button
                   onClick={() => closeMenuAndNavigate('/Contact')}
-                  className='block py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text hover:bg-gray-100 transition-colors duration-300'
+                  className='block w-full h-full py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text transition-colors duration-300'
                 >
                   Contacto
                 </button>
