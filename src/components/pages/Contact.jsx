@@ -8,11 +8,10 @@ export const Contact = () => {
           ¡Contactanos!
         </h1>
         <p className="font-space-grotesk text-xl md:text-5xl text-center bg-gradient-to-r text-transparent from-green-400 via-blue-500 to-blue-900 bg-clip-text">
-          Explora la fusión perfecta entre comodidad<br/> y estilo en nuestras
-          casas premoldeadas.<br/> 
-          Descubre un mundo de diseño innovador y<br/>
-          construcción eficiente.<br/>
-          Bienvenido a tu hogar ideal.
+          ¡Si te interesan algunas de nuestras propuestas no dudes en llamarnos!<br/> <br/>
+          Dirección: Av Sarmiento 2615<br/><br/>
+          Telefono Fijo: 3329 435572 <br/><br/>
+          Celular: 3329 623073 
         </p>
       </div>
     </div>
