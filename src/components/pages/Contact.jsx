@@ -2,18 +2,19 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <div>
-    <body className='absolute top-0 bg-cyan-500 h-screen'>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <h1>Contact Page</h1>
-
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente facere temporibus recusandae nisi asperiores, aliquam quisquam eius reprehenderit, ad magnam accusamus cupiditate, labore dolorem aspernatur eum! Tempora natus aliquam odit!</p>
-    </body>
-      
-  </div>
+    <div className='w-full h-screen bg-[url("https://i.imgur.com/O1kPyxm.png")] bg-cover bg-fixed overflow-hidden'>
+      <div className="flex flex-col items-center justify-center h-full text-white px-4 md:px-0">
+        <h1 className="font-space-grotesk text-5xl md:text-9xl bg-gradient-to-r text-transparent from-green-400 via-blue-500 to-blue-900 bg-clip-text mb-8 text-center">
+          ¡Contactanos!
+        </h1>
+        <p className="font-space-grotesk text-xl md:text-5xl text-center bg-gradient-to-r text-transparent from-green-400 via-blue-500 to-blue-900 bg-clip-text">
+          Explora la fusión perfecta entre comodidad<br/> y estilo en nuestras
+          casas premoldeadas.<br/> 
+          Descubre un mundo de diseño innovador y<br/>
+          construcción eficiente.<br/>
+          Bienvenido a tu hogar ideal.
+        </p>
+      </div>
+    </div>
   )
 }
