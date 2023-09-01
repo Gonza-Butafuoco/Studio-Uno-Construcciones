@@ -1,8 +1,8 @@
 import React from "react";
-import imagenCabaña from "../Resources/cabaña.jpg";
-import imagenMinimalista from "../Resources/minimalista.jpg";
-import imagenPremoldeada from "../Resources/premold.jpg";
-import imagenCasilla from "../Resources/casilla.jpg";
+import imagenCabaña from "../Resources/cabaña 1.jpg";
+import imagenMinimalista from "../Resources/minimalista1.jpg";
+import imagenPremoldeada from "../Resources/premoldeada1.jpg";
+import imagenCasilla from "../Resources/casilla1.jpg";
 import { Model } from "../molecules/Model";
 import { Link } from "react-router-dom";
 
