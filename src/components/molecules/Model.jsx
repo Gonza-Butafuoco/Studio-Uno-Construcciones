@@ -8,7 +8,7 @@ export const Model = ({titulo , imagen , descripcion,  }) => {
     <img src={imagen} alt={titulo}  className=' h-96 w-full rounded-t-lg' />
     <hr/>
     <h2 className='text-center mb-2 text-lg font-bold tracking-tight text-black'>{titulo}</h2>
-    <p className='text-sm mx-2 text-gray-900 font-medium '>{descripcion}</p>
+    <p className='md:text-sm text-[13px] mx-2 text-gray-900 font-medium '>{descripcion}</p>
 
     </div>
   )
