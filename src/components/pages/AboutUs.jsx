@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export const AboutUs = () => {
   return (
@@ -7,14 +7,14 @@ export const AboutUs = () => {
         <h1 className="font-space-grotesk text-5xl md:text-9xl bg-gradient-to-r text-transparent from-green-400 via-blue-500 to-blue-900 bg-clip-text mb-8 text-center">
           Sobre nosotros
         </h1>
-        <p className="font-space-grotesk text-xl md:text-5xl text-center bg-gradient-to-r text-transparent from-green-400 via-blue-500 to-blue-900 bg-clip-text">
-          Explora la fusión perfecta entre comodidad<br/> y estilo en nuestras
-          casas premoldeadas.<br/> 
-          Descubre un mundo de diseño innovador y<br/>
-          construcción eficiente.<br/>
-          Bienvenido a tu hogar ideal.
+        <p className="font-space-grotesk text-xl  md:text-3xl md:mx-40 text-center bg-gradient-to-r text-transparent from-green-400 via-blue-500 to-blue-900 bg-clip-text ">
+          Studio Uno Construcciones es una destacada empresa en el sector de la
+          construcción de casas prefabricadas. Con años de experiencia en el
+          mercado, nos enorgullece ofrecer soluciones habitacionales de alta
+          calidad y diseño innovador. Nuestra misión es brindar hogares
+          funcionales y estéticamente atractivos a un precio accesible.
         </p>
       </div>
     </div>
-  )
-}
+  );
+};

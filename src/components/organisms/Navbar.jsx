@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import ButtonSection from '../molecules/ButtonSection';
-import svgimage from "../Resources/studiouno_logotipo.svg";
+import logo from "../Resources/Studio uno logo.png";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +21,7 @@ function Navbar() {
       <nav className='flex justify-between items-center border-b border-gray-300 p-4 md:p-6'>
         <div>
           <Link to="/">
-            <img src={svgimage} alt="logo" className='h-16 w-16' />
+            <img src={logo} alt="logo" className='h-16 w-16' />
           </Link>
         </div>
         <div className='md:hidden relative'>
