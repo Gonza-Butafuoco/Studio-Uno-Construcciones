@@ -11,17 +11,16 @@ import plano2 from "../Resources/Plano 2.jpeg";
 import plano3 from "../Resources/Plano 3.jpeg";
 import plano4 from "../Resources/Plano 4.jpeg";
 import plano5 from "../Resources/Plano 5.jpeg";
-import plano6 from "../Resources/Plano 6.jpeg";
-import plano7 from "../Resources/Plano7.jpeg";
+
 
 
 const PremoldeadasDetailPage = () => {
   const { modelName } = useParams();
 
   return (
-    <div className='w-full h-full bg-[url("https://i.imgur.com/O1kPyxm.png")] bg-cover bg-fixed'>
-      <div className="flex flex-col items-center justify-center h-full text-white px-4 md:px-0 ">
-        <h1 className="font-space-grotesk text-5xl md:text-9xl bg-gradient-to-r text-transparent from-green-400 via-blue-500 to-blue-900 bg-clip-text mb-8 text-center my-10">
+    <div className='w-full h-full bg-sky-200 bg-cover bg-fixed'>
+      <div className="flex flex-col items-center justify-center h-full px-4 md:px-0 ">
+        <h1 className="font-space-grotesk text-5xl md:text-9xl bg-gradient-to-r text-transparent from-blue-600 via-cyan-600-600 to-sky-600 bg-clip-text mb-8 text-center my-10">
           Premoldeadas
         </h1>
         <div className="carousel-container max-w-[600px] mx-auto ">
@@ -49,7 +48,7 @@ const PremoldeadasDetailPage = () => {
           </Carousel>
         </div>
         <div>
-          <p className="font-space-grotesk text-2xl md:text-4xl bg-gradient-to-r text-transparent from-green-400 via-blue-500 to-blue-900 bg-clip-text mx-auto my-24 text-center">
+          <p className="font-space-grotesk text-2xl md:text-4xl bg-gradient-to-r text-transparent from-blue-600 via-cyan-600-600 to-sky-600 bg-clip-text mx-auto my-24 text-center">
             Las distintas formas de organizar la vivienda pueden ser vistas en los siguentes planos</p>
         </div>
         <div>
@@ -77,12 +76,6 @@ const PremoldeadasDetailPage = () => {
             </div>
             <div className="h-full">
               <img src={plano5} alt="plano5" className="h-full" />
-            </div>
-            <div className="h-full">
-              <img src={plano6} alt="plano6" className="h-full" />
-            </div>
-            <div className="h-full">
-              <img src={plano7} alt="plano7" className="h-full" />
             </div>
           </Carousel>
         </div>
