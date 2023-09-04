@@ -29,7 +29,6 @@ export const App = () => {
 
         <Routes>
           <Route exact path="/" Component={Home} />
-          <Route exact path="/Contact" Component={Contact} />
           <Route exact path="/ModelsPage" Component={ModelsPage} />
           <Route exact path="/Aboutus" Component={AboutUs} />
           <Route exact path="/model/Cabañas" Component={CabañasDetailPage} />

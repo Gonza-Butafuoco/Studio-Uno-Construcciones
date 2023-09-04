@@ -51,14 +51,6 @@ function Navbar() {
                   Modelos
                 </button>
               </li>
-              <li className='flex justify-center items-center  hover:bg-gray-300'>
-                <button
-                  onClick={() => closeMenuAndNavigate('/Contact')}
-                  className='block w-full h-full py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text transition-colors duration-300'
-                >
-                  Contacto
-                </button>
-              </li>
             </ul>
           </div>
           <button onClick={toggleMenu} className='p-2 transition-transform duration-300 transform hover:scale-110'>

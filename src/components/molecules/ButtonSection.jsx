@@ -25,14 +25,6 @@ function ButtonSection() {
           <AboutusButton/>
         </NavLink>
         </div>
-        <div className='px-4 py-2 font-semibold text-sm  text-black hover:-translate-y-1 hover:scale-110 hover:bg-black hover:rounded-lg hover:text-white ease-in-out delay-150 duration-300'>
-        <NavLink to="/Contact">
-          <ContactButton/>
-        </NavLink>
-        </div>
-
-
-
 
     </div>
   )
