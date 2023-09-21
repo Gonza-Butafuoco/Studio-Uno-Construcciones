@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
 import Navbar from "./components/organisms/Navbar";
 import { Home } from "./components/pages/Home";
 import { ModelsPage } from "./components/pages/ModelsPage";
-import { Contact } from "./components/pages/Contact";
 import { AboutUs } from "./components/pages/AboutUs";
 import CabañasDetailPage from "./components/pages/CabañasDetailPage";
 import MinimalistasDetailPage from "./components/pages/MinimalistasDetailPage";
@@ -29,7 +28,6 @@ export const App = () => {
 
         <Routes>
           <Route exact path="/" Component={Home} />
-          <Route exact path="/Contact" Component={Contact} />
           <Route exact path="/ModelsPage" Component={ModelsPage} />
           <Route exact path="/Aboutus" Component={AboutUs} />
           <Route exact path="/model/Cabañas" Component={CabañasDetailPage} />
