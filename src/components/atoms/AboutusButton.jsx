@@ -4,7 +4,7 @@ function AboutusButton() {
   return (
     <div>
         <button>
-            Sobre Nosotros
+        Acerca de Nosotros y Contacto
         </button>
     </div>
   )

@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom';
 import Navbar from "./components/organisms/Navbar";
 import { Home } from "./components/pages/Home";
 import { ModelsPage } from "./components/pages/ModelsPage";
-import { Contact } from "./components/pages/Contact";
 import { AboutUs } from "./components/pages/AboutUs";
 import CabañasDetailPage from "./components/pages/CabañasDetailPage";
 import MinimalistasDetailPage from "./components/pages/MinimalistasDetailPage";

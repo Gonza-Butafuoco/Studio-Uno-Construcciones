@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import ButtonSection from '../molecules/ButtonSection';
 import logo from "../Resources/Studio uno logo.png";
+import "../pages/animaciones.css"
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,8 +18,8 @@ function Navbar() {
   };
 
   return (
-    <div className='sticky top-0 bg-white z-10'>
-      <nav className='flex justify-between items-center border-b border-gray-300 p-4 md:p-6'>
+    <div className='sticky top-0 bg-white shadow-md z-10 tracking-in-expand'>
+      <nav className='flex justify-between items-center  border-gray-300 p-4 md:p-6'>
         <div>
           <Link to="/">
             <img src={logo} alt="logo" className='h-16 w-16' />
@@ -37,18 +38,18 @@ function Navbar() {
               </li>
               <li className='flex justify-center items-center  hover:bg-gray-300'>
                 <button
-                  onClick={() => closeMenuAndNavigate('/AboutUs')}
-                  className='block w-full h-full py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text transition-colors duration-300'
-                >
-                  Sobre nosotros
-                </button>
-              </li>
-              <li className='flex justify-center items-center  hover:bg-gray-300'>
-                <button
                   onClick={() => closeMenuAndNavigate('/ModelsPage')}
                   className='block w-full h-full py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text transition-colors duration-300'
                 >
                   Modelos
+                </button>
+              </li>
+              <li className='flex justify-center items-center  hover:bg-gray-300'>
+                <button
+                  onClick={() => closeMenuAndNavigate('/AboutUs')}
+                  className='block w-full h-full py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text transition-colors duration-300'
+                >
+                  Acerca de Nosotros y Contacto
                 </button>
               </li>
             </ul>
