@@ -1,58 +1,41 @@
 import React from "react";
 import "./animaciones.css";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import minimalista1 from "../Resources/minimalista1.jpg";
-import premoldeada2 from "../Resources/premoldeada2.jpg";
-import cabaña3 from "../Resources/cabaña 3.jpg";
+import logotipo from "../Resources/studiouno_logotipo.svg";
+import sucursal from "../Resources/Sucursal.jpeg";
 
 export const Home = () => {
   return (
     <div className="w-full h-screen bg-slate-100 bg-cover bg-fixed overflow-hidden">
-      <div className="flex flex-col md:flex-row items-center mt-10 md:mt-10 px-4 md:px-0">
-        <div className="flex flex-col items-start flex-1">
-          <h1 className="font-space-grotesk text-5xl md:text-9xl bg-gradient-to-r text-transparent from-blue-700  to-sky-700 bg-clip-text mb-8 text-center tracking-in-expand">
-            ¡Bienvenidos!
-          </h1>
-          <p className="font-space-grotesk text-xl md:text-5xl text-left bg-gradient-to-r text-transparent from-blue-700  to-sky-700 bg-clip-text tracking-in-expand max-w-[800px] ">
-            Explora la fusión perfecta entre comodidad
-            <br /> y estilo en nuestras casas prefabricadas.
-            <br />
-            Descubre un mundo de diseño innovador y<br />
-            construcción eficiente.
-            <br />
-            Bienvenido a tu hogar ideal.
-          </p>
-        </div>
-        <div className="flex flex-col items-center mt-12 md:mt-24 flex-1">
-          <p className="font-space-grotesk text-2xl md:text-5xl text-left bg-gradient-to-r text-transparent from-blue-700  to-sky-700 bg-clip-text tracking-in-expand max-w-[800px]">
-            Mira algunas de las propuestas <br />
-            que tenemos para vos
-          </p>
-          <div className="mt-8 carousel-container max-w-[600px] mx-auto tracking-in-expand ">
-            <Carousel
-              autoPlay
-              interval={3000}
-              showArrows={true}
-              infiniteLoop={true}
-              showThumbs={false}
-              showStatus={false}
-              showIndicators={false}
-            >
-              <div className="h-full">
-                <img src={minimalista1} alt="minimalista1" className="h-full" />
-              </div>
-              <div className="h-full">
-              <img src={premoldeada2} alt="premoldeada2" className="h-full" />
-              </div>
-              <div className="h-full">
-              <img src={cabaña3} alt="cabaña3" className="h-full" />
-              </div>
-            </Carousel>
+      <div className="w-full h-screen bg-slate-100 bg-cover bg-fixed overflow-hidden">
+        <div className="flex flex-col md:flex-row items-center mt-10 md:mt-10 px-4 md:px-0">
+          <div className="flex flex-col  flex-1 mx-auto md:mx-0 md:text-center">
+            <div className="flex flex-col items-center">
+              <h1 className="font-space-grotesk md:pl-10 text-5xl md:text-9xl bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text mb-2 md:mb-8 tracking-in-expand">
+                ¡Bienvenidos!
+              </h1>
+            </div>
+            <div className="flex flex-row justify-center pt-8 md:pt-1 md:pl-10">
+              <img
+                src={logotipo}
+                alt="logotipo"
+                className="items-center h-28 w-28 md:h-36 md:w-36"
+              />
+              <h2 className="font-space-grotesk pt-8 md:pt-8 text-3xl md:text-6xl bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text ml-4 md:ml-8 mb-8 tracking-in-expand">
+                Studio Uno Construcciones
+              </h2>
+            </div>
+            <div className="flex flex-col md:flex-row items-start md:items-center">
+              <p className="font-space-grotesk pt-2 md:pl-10 md:pt-20 text-xl md:text-5xl text-left bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand max-w-[800px]">
+                Empresa Lider en casas americanas premoldeadas, cabañas y
+                complejos turísticos.
+                <br /> Radicada en san Pedro, prov de Buenos Aires, hace más de
+                10 años contamos con más de 980 casas entregadas en la zona
+              </p>
+              <img src={sucursal} alt="sucursal" className=" pt-2  h-64 w-auto md:h-[480px] md:w-[1000px]" />
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 };
-
