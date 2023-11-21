@@ -2,12 +2,12 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import premoldeada1 from "../Resources/premoldeada1.jpg";
-import premoldeada2 from "../Resources/premoldeada2.jpg";
-import premoldeada3 from "../Resources/premoldeada3.jpg";
-import premoldeada4 from "../Resources/premoldeada4.jpg";
-import premoldeada5 from "../Resources/premoldeada5.jpeg";
-import premoldeada6 from "../Resources/premoldeada6.jpeg";
+import premoldeada1 from "../Resources/premoldeada 1.jpg";
+import premoldeada2 from "../Resources/premoldeada 2.jpeg";
+import premoldeada3 from "../Resources/premoldeada 3.jpg";
+import premoldeada4 from "../Resources/premoldeada 4.jpeg";
+import premoldeada5 from "../Resources/premoldeada 5.jpeg";
+import premoldeada6 from "../Resources/premoldeada 6.jpeg";
 import "../pages/animaciones.css";
 
 const PremoldeadasDetailPage = () => {
