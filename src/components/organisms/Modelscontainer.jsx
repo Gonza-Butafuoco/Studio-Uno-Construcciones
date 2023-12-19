@@ -28,7 +28,7 @@ export const Modelscontainer = () => {
   ];
 
   return (
-    <div className="container mx-auto grid grid-cols-1   lg:grid-cols-3 gap-4 justify-center">
+    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4 justify-center">
       {modelos.map((modelo, index) => (
         <Link key={index} to={`/model/${modelo.titulo}`}>
           <Model
