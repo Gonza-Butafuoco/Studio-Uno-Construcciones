@@ -6,6 +6,7 @@ import cabaña1 from "../Resources/cabaña 1.jpg";
 import cabaña2 from "../Resources/cabaña 2.jpg";
 import cabaña3 from "../Resources/cabaña 3.jpg";
 import cabaña4 from "../Resources/cabaña 4.jpeg";
+import cabaña5 from "../Resources/cabaña 5.jpg";
 import "../pages/animaciones.css"
 
 const CabañasDetailPage = () => {
@@ -38,6 +39,9 @@ const CabañasDetailPage = () => {
             </div>
             <div className="h-full">
               <img src={cabaña4} alt="cabaña4" className="h-full" />
+            </div>
+            <div className="h-full">
+              <img src={cabaña5} alt="cabaña5" className="h-full" />
             </div>
           </Carousel>
         </div>
