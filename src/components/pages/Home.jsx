@@ -10,7 +10,7 @@ import planos from "../Resources/planos.jpg";
 export const Home = () => {
   return (
     <div className="w-full h-full bg-slate-100 bg-cover bg-fixed overflow-hidden">
-      <div className="w-full h-full bg-slate-100 bg-cover bg-fixed overflow-hidden">
+      <div className="w-full h-full bg-slate-100 bg-cover bg-fixed overflow-hidden mb-4">
         <div className="flex flex-col md:flex-row items-center mt-10 md:mt-10 px-4 md:px-0">
           <div className="flex flex-col  flex-1 mx-auto md:mx-0 md:text-center">
             <div className="flex flex-col items-center">
@@ -28,20 +28,28 @@ export const Home = () => {
                 Studio Uno Construcciones
               </h2>
             </div>
-            <div className="flex flex-col md:flex-row items-start md:items-center">
-              <p className="font-space-grotesk pt-2 md:pl-10 md: text-xl md:text-[42px]/[43px] text-left bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand max-w-[800px]">
-                Empresa familiar radicada en San Pedro,Provincia de Buenos
-                Aires.Con más de 10 años de experiencia,contamos con más de 980
-                casas entregadas en la zona y alrededores. <br/>
-                Somos fabricantes,realizamos planos a medida y entregamos su hogar
-                llave en mano en 45 días. Construimos en todo el país en
-                terrenos,fondos y terrazas
+            <div className="flex flex-col md:flex-row items-start ">
+              <p className="md:items-start md:justify-center font-space-grotesk pt-2 md:pl-5 md:pr-2 md:pt-8 text-2xl md:text-3xl text-left bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand md:w-2/5">
+                Empresa Lider en casas americanas premoldeadas, cabañas y
+                complejos turísticos.
+                <br /> Radicada en san Pedro, prov de Buenos Aires, hace más de
+                10 años contamos con más de 980 casas entregadas en la zona
               </p>
-              <img
-                src={sucursal}
-                alt="sucursal"
-                className=" pt-2  h-64 w-auto md:h-[480px] md:w-[1000px]"
-              />
+              <img src={sucursal} alt="sucursal" className="md:items-center md:justify-center md:ml-52 pt-8 h-64 w-screen md:h-72 md:w-96"/>
+            </div>
+            <div className="flex flex-col md:flex-row items-center md:items-center md:justify-center">
+              <p className="my-10 font-space-grotesk pt-2 md:pl-2 md:pr-2 md:pt-8 text-2xl md:text-3xl text-left bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand md:w-2/5">
+                Somos fabricantes y<br/>
+                Hacemos planos a medida,<br/>
+                Construimos en todo el país<br/>
+                Y te garantizamos entrega en 45 dias
+              </p>
+              <div className="grid gap-4 grid-cols-2">
+              <img src={fabrica} alt="fabricación" className="pt-8 h-64 w-screen md:h-64 md:w-96"/>
+              <img src={planos} alt="planos" className="pt-8 h-64 w-screen md:h-64 md:w-96"/>
+              <img src={construccion} alt="construcciones" className="h-64 w-screen md:h-64 md:w-96"/>
+              <img src={entrega} alt="entrega" className="h-64 w-screen md:h-64 md:w-96"/>
+              </div>
             </div>
           </div>
         </div>
