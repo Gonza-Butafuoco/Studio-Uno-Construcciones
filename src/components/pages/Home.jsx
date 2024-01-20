@@ -28,8 +28,8 @@ export const Home = () => {
                 Studio Uno Construcciones
               </h2>
             </div>
-            <div className="flex flex-col md:flex-row items-start ">
-              <p className="md:items-start md:justify-center font-space-grotesk pt-2 md:pl-5 md:pr-2 md:pt-8 text-2xl md:text-3xl text-left bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand md:w-2/5">
+            <div className="flex flex-col md:flex-row items-start md:items-center ">
+              <p className=" font-space-grotesk 2xl:ml-40 pt-2 md:pl-5  md:pr-2 md:pt-8 text-2xl md:text-3xl text-left bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand md:w-2/5">
                 Empresa Lider en casas americanas premoldeadas, cabañas y
                 complejos turísticos.
                 <br /> Radicada en san Pedro, prov de Buenos Aires, hace más de
