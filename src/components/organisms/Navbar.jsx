@@ -49,7 +49,7 @@ function Navbar() {
                   onClick={() => closeMenuAndNavigate('/AboutUs')}
                   className='block w-full h-full py-2 px-4 font-space-grotesk text-transparent bg-gradient-to-r from-green-400 via-blue-500 to-blue-900 bg-clip-text transition-colors duration-300'
                 >
-                  Acerca de Nosotros y Contacto
+                  Contacto
                 </button>
               </li>
             </ul>

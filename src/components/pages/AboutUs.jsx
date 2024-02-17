@@ -8,19 +8,10 @@ export const AboutUs = () => {
     <div className="w-full  bg-slate-100  min-h-screen h-full overflow-hidden">
       <div className="w-full h-full bg-slate-100 bg-cover overflow-hidden">
         <div className="flex flex-col items-center justify-center h-full  px-2 md:px-0 md:overflow-y-hidden">
-          <h1 className="font-space-grotesk text-5xl md:text-9xl bg-gradient-to-r text-transparent from-blue-700  to-sky-700 bg-clip-text mb-8 text-center tracking-in-expand">
-            Acerca de nosotros
-          </h1>
-          <p className="font-space-grotesk text-xl  md:text-3xl md:mx-40 text-center bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand ">
-            Planos a medida. Construimos en todo el país en terrenos,fondos y
-            terrazas.
-            <br />
-            Exposición y venta.
-          </p>
-          <h2 className="font-space-grotesk text-3xl md:text-6xl bg-gradient-to-r text-transparent from-blue-700  to-sky-700 bg-clip-text mt-10 text-center tracking-in-expand">
+          <h1 className="font-space-grotesk text-3xl md:text-8xl bg-gradient-to-r text-transparent from-blue-700  to-sky-700 bg-clip-text mt-10 text-center tracking-in-expand">
             ¡Contactanos!
-          </h2>
-          <p className="font-space-grotesk mt-1  text-xl md:text-3xl text-center bg-gradient-to-r text-transparent from-blue-700  to-sky-700 bg-clip-text tracking-in-expand">
+          </h1>
+          <p className="font-space-grotesk mt-1  text-xl md:text-3xl text-center md:p-20 bg-gradient-to-r text-transparent from-blue-700  to-sky-700 bg-clip-text tracking-in-expand">
             ¡Si te interesan alguna de nuestras propuestas, no dudes en
             contratarnos!
             <br /> <br />

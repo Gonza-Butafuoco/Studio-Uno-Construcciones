@@ -35,20 +35,52 @@ export const Home = () => {
                 <br /> Radicada en san Pedro, prov de Buenos Aires, hace más de
                 10 años contamos con más de 980 casas entregadas en la zona
               </p>
-              <img src={sucursal} alt="sucursal" className="md:items-center md:justify-center md:ml-52 pt-8 h-64 w-screen md:h-72 md:w-96"/>
+              <img
+                src={sucursal}
+                alt="sucursal"
+                className="md:items-center md:justify-center md:ml-52 pt-8 h-64 w-screen md:h-72 md:w-96"
+              />
             </div>
-            <div className="flex flex-col md:flex-row items-center md:items-center md:justify-center">
-              <p className="my-10 font-space-grotesk pt-2 md:pl-2 md:pr-2 md:pt-8 text-2xl md:text-3xl text-left bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand md:w-2/5">
-                Somos fabricantes y<br/>
-                Hacemos planos a medida,<br/>
-                Construimos en todo el país<br/>
-                Y te garantizamos entrega en 45 dias
-              </p>
-              <div className="grid gap-4 grid-cols-2">
-              <img src={fabrica} alt="fabricación" className="pt-8 h-64 w-screen md:h-64 md:w-96"/>
-              <img src={planos} alt="planos" className="pt-8 h-64 w-screen md:h-64 md:w-96"/>
-              <img src={construccion} alt="construcciones" className="h-64 w-screen md:h-64 md:w-96"/>
-              <img src={entrega} alt="entrega" className="h-64 w-screen md:h-64 md:w-96"/>
+            <div className="flex flex-col md:flex-row items-center md:items-center md:gap-x-20 md:pt-8 md:justify-center">
+              <div className="flex flex-col justify-center  items-center">
+                <img
+                  src={fabrica}
+                  alt="fabricación"
+                  className="md:pl-6 pt-8 h-64 w-screen md:h-64 md:w-96"
+                />
+                <p className="my-10 font-space-grotesk pt-2 md:pt-9 text-2xl md:text-3xl  bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand">
+                  Somos fabricantes
+                </p>
+              </div>
+              <div className="flex flex-col justify-center  items-center">
+                <img
+                  src={planos}
+                  alt="planos"
+                  className="pt-8 h-64 w-screen md:h-64 md:w-96"
+                />
+                <p className="my-10 font-space-grotesk pt-2 md:pt-0 text-2xl md:text-3xl  bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand">
+                  Hacemos planos a medida
+                </p>
+              </div>
+              <div className="flex flex-col justify-center  items-center" >
+                <img
+                  src={construccion}
+                  alt="construcciones"
+                  className="h-64 w-screen md:h-64 md:w-96 pt-8"
+                />
+                <p className="my-10 font-space-grotesk pt-2 md:pt-0 text-2xl md:text-3xl  bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand">
+                  Construimos en todo el pais
+                </p>
+              </div>
+              <div className="flex flex-col justify-center  items-center">
+                <img
+                  src={entrega}
+                  alt="entrega"
+                  className="h-64 w-screen md:h-64 md:w-96 pt-8"
+                />
+                <p className="my-10 font-space-grotesk pt-2 md:pt-0 text-2xl md:text-3xl  bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand">
+                  Te garantizamos la entrega en 45 dias
+                </p>
               </div>
             </div>
           </div>
