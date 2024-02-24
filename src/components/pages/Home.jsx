@@ -32,7 +32,7 @@ export const Home = () => {
               <p className=" font-space-grotesk 2xl:ml-40 pt-2 md:pl-5  md:pr-2 md:pt-8 text-2xl md:text-3xl text-left bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand md:w-2/5">
                 Empresa Lider en casas americanas premoldeadas, cabañas y
                 complejos turísticos.
-                <br /> Radicada en san Pedro, prov de Buenos Aires, hace más de
+                <br /> Radicada en San Pedro, Provincia de Buenos Aires. Hace más de
                 10 años contamos con más de 980 casas entregadas en la zona
               </p>
               <img
@@ -41,7 +41,7 @@ export const Home = () => {
                 className="md:items-center md:justify-center md:ml-52 pt-8 h-64 w-screen md:h-72 md:w-96"
               />
             </div>
-            <div className="flex flex-col md:flex-row items-center md:items-center md:gap-x-20 md:pt-8 md:justify-center">
+            <div className="flex flex-col md:flex-row items-center md:items-center md:gap-x-20 pt-40 md:pt-10 md:justify-center">
               <div className="flex flex-col justify-center  items-center">
                 <img
                   src={fabrica}
@@ -59,7 +59,7 @@ export const Home = () => {
                   className="pt-8 h-64 w-screen md:h-64 md:w-96"
                 />
                 <p className="my-10 font-space-grotesk pt-2 md:pt-0 text-2xl md:text-3xl  bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand">
-                  Hacemos planos a medida
+                  Contamos con planos a medida
                 </p>
               </div>
               <div className="flex flex-col justify-center  items-center" >
@@ -79,7 +79,7 @@ export const Home = () => {
                   className="h-64 w-screen md:h-64 md:w-96 pt-8"
                 />
                 <p className="my-10 font-space-grotesk pt-2 md:pt-0 text-2xl md:text-3xl  bg-gradient-to-r text-transparent from-blue-700 to-sky-700 bg-clip-text tracking-in-expand">
-                  Te garantizamos la entrega en 45 dias
+                  Entrega por escrito en 45 dias
                 </p>
               </div>
             </div>

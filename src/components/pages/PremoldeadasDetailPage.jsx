@@ -3,11 +3,10 @@ import { useParams } from "react-router-dom";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import premoldeada1 from "../Resources/premoldeada 1.jpeg";
-import premoldeada2 from "../Resources/premoldeada 2.jpeg";
-import premoldeada3 from "../Resources/premoldeada 3.jpg";
+import premoldeada2 from "../Resources/premoldeada 2.jpg";
+import premoldeada3 from "../Resources/premoldeada 3.jpeg";
 import premoldeada4 from "../Resources/premoldeada 4.jpeg";
 import premoldeada5 from "../Resources/premoldeada 5.jpeg";
-import premoldeada6 from "../Resources/premoldeada 6.jpeg";
 import "../pages/animaciones.css";
 
 const PremoldeadasDetailPage = () => {
@@ -43,9 +42,6 @@ const PremoldeadasDetailPage = () => {
             </div>
             <div className="h-full">
               <img src={premoldeada5} alt="premoldeada5" className="h-full" />
-            </div>
-            <div className="h-full">
-              <img src={premoldeada6} alt="premoldeada6" className="h-full" />
             </div>
           </Carousel>
         </div>
