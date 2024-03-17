@@ -5,8 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import interiores1 from "../Resources/interiores1.jpeg";
 import interiores2 from "../Resources/interiores2.jpeg";
 import interiores3 from "../Resources/interiores3.jpeg";
-import interiores4 from "../Resources/interiores4.jpeg";
-import interiores5 from "../Resources/interiores5.jpeg";
+
 import "../pages/animaciones.css"
 
 const InterioresDetailPage = () => {
@@ -37,12 +36,7 @@ const InterioresDetailPage = () => {
             <div className="h-96">
               <img src={interiores3} alt="interiores3" className="h-96" />
             </div>
-            <div className="h-96">
-              <img src={interiores4} alt="interiores4" className="h-96" />
-            </div>
-            <div className="h-96">
-              <img src={interiores5} alt="interiores5" className="h-96" />
-            </div>
+ 
           </Carousel>
         </div>
         <div>
