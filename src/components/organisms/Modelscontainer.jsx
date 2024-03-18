@@ -19,19 +19,19 @@ export const Modelscontainer = () => {
       titulo: "Minimalistas ",
       imagen: imagenMinimalista,
       descripcion:
-        "Posee de techó Zing,cielorraso de machimbre. El exterior está compuesto de placas de cemento. El interior posee placas de durlock. Contiene puertas placas interiores;ventanas de aluminio blanco con vidrios y rejas;caños y cajas de luz;agua fría/caliente en baño y cocina; con puerta de entrada inyectadas",
+        "Posee de techó Zing,cielorraso de machimbre. El exterior está compuesto de placas de cemento. El interior posee placas de durlock. Contiene puertas placas interiores;ventanas de aluminio blanco con vidrios y rejas;caños y cajas de luz;agua fría/caliente en baño y cocina; con puerta de entrada inyectada",
     },
     {
       titulo: "Premoldeadas",
       imagen: imagenPremoldeada,
       descripcion:
-        "Posee techó de Zing,cielorraso de machimbre. El exterior está compuesto de placas de cemento. El interior posee placas de durlock. Contiene puertas placas interiores;ventanas de aluminio blanco con vidrios y rejas;caños y cajas de luz;agua fría/caliente en baño y cocina; con puerta de entrada inyectadas",
+        "Posee techó de Zing,cielorraso de machimbre. El exterior está compuesto de placas de cemento. El interior posee placas de durlock. Contiene puertas placas interiores;ventanas de aluminio blanco con vidrios y rejas;caños y cajas de luz;agua fría/caliente en baño y cocina; con puerta de entrada inyectada",
     },
     {
       titulo: "Industrializadas",
       imagen: imagenIndustrializadas,
       descripcion:
-        "Posee de techó Zing,cielorraso de machimbre. El exterior está compuesto de placas de cemento .El interior posee placas de durlock. Contiene puertas placas interiores;ventanas de aluminio blanco con vidrios y rejas;caños y cajas de luz;agua fría/caliente en baño y cocina; con puerta de entrada inyectadas",
+        "Posee de techó Zing,cielorraso de machimbre. El exterior está compuesto de placas de cemento .El interior posee placas de durlock. Contiene puertas placas interiores;ventanas de aluminio blanco con vidrios y rejas;caños y cajas de luz;agua fría/caliente en baño y cocina; con puerta de entrada inyectada",
     },
     {
       titulo: "Interiores",
